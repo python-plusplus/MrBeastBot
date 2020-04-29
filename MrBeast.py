@@ -2,7 +2,8 @@ import requests
 import json
 import re
 # videoLink = input()
-apiKey = "AIzaSyBdPE7xtt21hbcwDvpNu3MgsVJOAE6fp0E"
+#apikey removed for upload on github
+
 url = f"https://www.googleapis.com/youtube/v3/comments?part=snippet&id={videoID}&key={apiKey}"
 
 # -*- coding: utf-8 -*-
