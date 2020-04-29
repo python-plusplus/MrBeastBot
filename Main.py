@@ -95,7 +95,6 @@ def check_activity(youtube, channel_id, max_results):
     print(videoId)
     return videoId
 
-
 for a in range(10000):
     video_id = check_activity(youtube, 'UC2UfdGz8-fdBzjT_0eh23Dg', 1)
     if video_id == 'kSMi35oazWs':
